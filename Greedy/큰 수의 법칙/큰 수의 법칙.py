@@ -7,3 +7,4 @@ num_list.sort()
 answer = num_list[-1] * (m//k)*k + num_list[-2] * (m%k)
 
 print(answer)
+
