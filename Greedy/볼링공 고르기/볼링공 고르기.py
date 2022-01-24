@@ -20,3 +20,4 @@ for i in range(n-1):
        if ball[i] != ball[j]:
            cnt+=1
 print(cnt)
+
