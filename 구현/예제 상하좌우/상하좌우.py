@@ -3,7 +3,7 @@
 ### R R R U D D
 
 n = int(input())
-plan = list(map(str,input().split()))
+plan = input().split()
 
 map= [[0]*(n) for i in range(n)]
 x,y = 0,0
