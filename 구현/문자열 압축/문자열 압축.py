@@ -12,8 +12,7 @@ def solution(s):
                 d.append(s[i:])
         num = [1]* len(d)
         idx = 0
-        tmp = 0
-        dist= 0
+        tmp = 
         while(idx < len(d)-1):
             if d[idx] == d[idx+1]:
                 num[tmp]+=1
