@@ -8,3 +8,15 @@ answer = num_list[-1] * (m//k)*k + num_list[-2] * (m%k)
 
 print(answer)
 
+
+2022/09/28
+n,m,k = map(int,input().split())
+num = list(map(int,input().split()))
+num.sort(reverse=True)
+x = m//k
+y = m%k
+answer = 0
+answer+=num[0]*x*k
+answer+=num[1]*y
+
+print(answer)
